@@ -314,6 +314,16 @@ ul {
 .total{
 	background-color:rgba(217, 89, 58, .5);
 }
+
+.twitter, .facebook{
+	float: left;
+}
+
+.facebook{
+	margin-left: 10px;
+	position: relative;
+	bottom: 7px;
+}
 @media (max-width: 860px){
 
 	.nav li{
