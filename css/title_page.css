@@ -127,7 +127,11 @@ footer a:hover{
 	font-family: 'News Cycle', sans-serif;
 	text-align: left;
 }
-
+@media (max-width: 768px){
+	.social{
+		position: static;
+	}
+}
 
 @media (max-width: 768px){
 	.images img{
