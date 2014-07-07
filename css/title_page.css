@@ -32,12 +32,18 @@ img:hover {
 	opacity: 1;
 }
 
-.twitter{
+.twitter, .facebook{
 	float: left;
 }
 
 .facebook{
-	float: left;
+	margin-left: 10px;
+}
+
+.social{
+	position: relative;
+	bottom: 165px;
+	right: 54px;
 }
 
 .logo{
