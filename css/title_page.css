@@ -32,7 +32,13 @@ img:hover {
 	opacity: 1;
 }
 
+.twitter{
+	float: left;
+}
 
+.facebook{
+	float: left;
+}
 
 .logo{
 	position: absolute;
