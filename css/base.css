@@ -96,24 +96,24 @@ ul {
 
 
 .slide-one{
-	background-image: url('../images/arrest.jpg');
+	background-image: url('/double-charged-app/images/arrest.jpg');
 }
 
 .slide-two{
-	background-image: url('../images/BandWimage1.jpg');
+	background-image: url('/double-charged-app/images/BandWimage1.jpg');
 }
 
 
 .slide-three{
-	background-image: url('../images/BandWimage2.jpg');
+	background-image: url('/double-charged-app/images/BandWimage2.jpg');
 }
 
 .slide-five{
-	background-image: url('../images/Abstract1.jpg');
+	background-image: url('/double-charged-app/images/Abstract1.jpg');
 }
 
 .slide-four{
-	background-image: url('../images/BandWimage3.jpg');
+	background-image: url('/double-charged-app/images/BandWimage3.jpg');
 }
 
 #slidr-div{
@@ -130,13 +130,13 @@ ul {
 .slidr-control.right {
 	width: 80px!important;
 	height: 100% !important;
-	background: url('../images/right.png') 14px 13px no-repeat white;
+	background: url('/double-charged-app/images/right.png') 14px 13px no-repeat white;
 	background-position: center;
 	opacity: 0.1;
 }
 
 .slidr-control.right:hover{
-	background: url('../images/right.png') 14px 13px no-repeat #d9593a;
+	background: url('/double-charged-app/images/right.png') 14px 13px no-repeat #d9593a;
 	background-position: center;
 	opacity: 0.6;
 }
@@ -145,13 +145,13 @@ ul {
 	width: 80px!important;
 	height: 100% !important;
 	background-position: center;
-	background: url('../images/left.png') 14px 13px no-repeat white;
+	background: url('/double-charged-app/images/left.png') 14px 13px no-repeat white;
 	background-position: center;
 	opacity: 0.1;
 }
 
 .slidr-control.left:hover{
-	background: url('../images/left.png') 14px 13px no-repeat #d9593a;
+	background: url('/double-charged-app/images/left.png') 14px 13px no-repeat #d9593a;
 	background-position: center;
 	opacity: 0.6;
 }
@@ -173,7 +173,7 @@ ul {
 	letter-spacing: 5px;
 	text-align: center;
 	z-index: 1003;
-	background-image: url("../images/orangeSTAMP.png");
+	background-image: url("/double-charged-app/images/orangeSTAMP.png");
 	background-size: cover;
 	height: 200px;
 	width: 200px;
@@ -356,7 +356,7 @@ ul {
 		height: 150px;
 		padding-top: 55px;
 		bottom: 4%;
-		background-image: url("../images/BlueStamp.png");
+		background-image: url("/double-charged-app/images/BlueStamp.png");
 	}
 
 	#cost{
