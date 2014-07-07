@@ -14,14 +14,14 @@
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=532380043535258&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=532380043535258&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   <div class="container-fluid">
     <div class="row" >
       <div class="nav-bar">
@@ -138,10 +138,15 @@
                 </tr>
               </table>
               <p> Jeremy's family would pay $3,115 in fines and fees. To learn more, check out our <a href="https://youthradio.org/news/article/double-charged/" target="_blank">"Double-Charged"</a> series.</p>
+
               <!-- Social media sharing -->
-              <p class="twitter"> <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out the new Double Charged App from @youthradio's Innovation Lab." data-related="youthradio" data-hashtags="doublecharged,youthradio,justice">Tweet</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
-                <div class="fb-share-button facebook" data-href="http://youthradio.github.io/gina.html" data-width="50" data-type="button"></div>
+              <div class="row">
+                <div class="col-xs-3 col-xs-offset-5">
+                  <p class="twitter"> <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out the new Double Charged App from @youthradio's Innovation Lab." data-related="youthradio" data-hashtags="doublecharged,youthradio,justice">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+                    <div class="fb-share-button facebook" data-href="http://youthradio.github.io/gina.html" data-width="50" data-type="button"></div>
+                  </div>
+                </div>
               </div>
 
             </div>
