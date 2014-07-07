@@ -38,6 +38,8 @@ img:hover {
 
 .facebook{
 	margin-left: 10px;
+	position: relative;
+	bottom: 7px;
 }
 
 .social{
