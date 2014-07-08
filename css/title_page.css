@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=News+Cycle);
-@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=News+Cycle);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 
 html, body{
 	background-color: rgba(74, 110, 120, 1);
@@ -7,6 +7,9 @@ html, body{
 	height: 100%;
 	}
 
+hr{
+	clear: both;
+}
 .toLoad{
 	opacity: 0;
 }
@@ -130,6 +133,11 @@ footer a:hover{
 @media (max-width: 790px){
 	.social{
 		position: static;
+	}
+	.facebook, .twitter{
+		float: none;
+		margin-left:none;
+		bottom: none;
 	}
 }
 

@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=News+Cycle);
+@import url(https://fonts.googleapis.com/css?family=News+Cycle);
 
 *{
 	margin: 0;
@@ -96,24 +96,24 @@ ul {
 
 
 .slide-one{
-	background-image: url('/double-charged-app/images/arrest.jpg');
+	background-image: url('https://youthradio.org/innovationlab/double-charged-app/images/arrest.jpg');
 }
 
 .slide-two{
-	background-image: url('/double-charged-app/images/BandWimage1.jpg');
+	background-image: url('https://youthradio.org/innovationlab/double-charged-app/images/BandWimage1.jpg');
 }
 
 
 .slide-three{
-	background-image: url('/double-charged-app/images/BandWimage2.jpg');
+	background-image: url('https://youthradio.org/innovationlab/double-charged-app/images/BandWimage2.jpg');
 }
 
 .slide-five{
-	background-image: url('/double-charged-app/images/Abstract1.jpg');
+	background-image: url('https://youthradio.org/innovationlab/double-charged-app/images/Abstract1.jpg');
 }
 
 .slide-four{
-	background-image: url('/double-charged-app/images/BandWimage3.jpg');
+	background-image: url('https://youthradio.org/innovationlab/double-charged-app/images/BandWimage3.jpg');
 }
 
 #slidr-div{
@@ -130,13 +130,13 @@ ul {
 .slidr-control.right {
 	width: 80px!important;
 	height: 100% !important;
-	background: url('/double-charged-app/images/right.png') 14px 13px no-repeat white;
+	background: url('https://youthradio.org/innovationlab/double-charged-app/images/right.png') 14px 13px no-repeat white;
 	background-position: center;
 	opacity: 0.1;
 }
 
 .slidr-control.right:hover{
-	background: url('/double-charged-app/images/right.png') 14px 13px no-repeat #d9593a;
+	background: url('https://youthradio.org/innovationlab/double-charged-app/images/right.png') 14px 13px no-repeat #d9593a;
 	background-position: center;
 	opacity: 0.6;
 }
@@ -145,13 +145,13 @@ ul {
 	width: 80px!important;
 	height: 100% !important;
 	background-position: center;
-	background: url('/double-charged-app/images/left.png') 14px 13px no-repeat white;
+	background: url('https://youthradio.org/innovationlab/double-charged-app/images/left.png') 14px 13px no-repeat white;
 	background-position: center;
 	opacity: 0.1;
 }
 
 .slidr-control.left:hover{
-	background: url('/double-charged-app/images/left.png') 14px 13px no-repeat #d9593a;
+	background: url('https://youthradio.org/innovationlab/double-charged-app/images/left.png') 14px 13px no-repeat #d9593a;
 	background-position: center;
 	opacity: 0.6;
 }
@@ -173,13 +173,13 @@ ul {
 	letter-spacing: 5px;
 	text-align: center;
 	z-index: 1003;
-	background-image: url("/double-charged-app/images/orangeSTAMP.png");
+	background-image: url("https://youthradio.org/innovationlab/double-charged-app/images/orangeSTAMP.png");
 	background-size: cover;
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	bottom: 6%;
 	left: 3%;
-	padding-top: 70px;
+	padding-top: 47px;
 	transition: height 2s ease;
 	-moz-translate: rotate(20%);
 	-webkit-transition: height 2s ease;
@@ -194,7 +194,7 @@ ul {
 
 
 #money p{
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .smaller-size{
@@ -256,7 +256,8 @@ ul {
 }
 
 .modal{
-	background: rgba(0, 0, 0, .9);
+	background: rgba(0, 0, 0, .8);
+	z-index: 9999;
 }
 
 .modal-dialog{
@@ -265,6 +266,10 @@ ul {
 
 .modal-header{
 	border: none;
+}
+
+.close{
+	opacity: 1;
 }
 
 .modal-content{
@@ -302,6 +307,7 @@ ul {
 
 .scrollOut{
 	height: 1000px;
+/*	overflow: scroll;*/
 }
 
 .scrollIn{
@@ -324,6 +330,7 @@ ul {
 	position: relative;
 	bottom: 7px;
 }
+
 @media (max-width: 860px){
 
 	.nav li{
@@ -352,15 +359,15 @@ ul {
 	}
 
 	#money{
-		width: 150px;
-		height: 150px;
-		padding-top: 55px;
+		width: 100px;
+		height: 100px;
+		padding-top: 37px;
 		bottom: 4%;
-		background-image: url("/double-charged-app/images/BlueStamp.png");
+		background-image: url("https://youthradio.org/innovationlab/double-charged-app/images/BlueStamp.png");
 	}
 
 	#cost{
-		font-size: 25px!important;
+		font-size: 15px!important;
 	}
 
 	.overlay{
@@ -378,7 +385,7 @@ ul {
 		font-size: 15px;
 	}
 	.modal-dialog{
-		padding-top: 100px;
+		padding-top: 35%;
 	}
 }
 

@@ -2,26 +2,37 @@
 <html>
 <head>
   <title> Double Charged: Gina</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width; initial-scale=1; minimal-ui">
+
   <!-- Facebook Open graph -->
   <meta property="og:title" content="Double Charged: Behind The Numbers" />
   <meta property="og:site_name" content="Youth Radio"/>
   <meta property="og:description" content="In the juvenile justice system, young people charged with a crime can be subject to jail time, probation, and fines and fees. Youth Radio's Innovation Lab invites you to explore these stories to see how court-related debt can add up." />
-  <meta property="og:url" content="http://youthradio.github.io/index.html" />
-  <meta property="fb:app_id" content="532380043535258"/>
-  <meta property="og:image" content='http://youthradio.github.io/images/fb-img.jpg'/>
+  <meta property="og:url" content="https://youthradio.org/double-charged-app/" />
+  <meta property="fb:app_id" content="829227193757174"/>
+  <meta property="og:image" content='https://youthradio.org/innovationlab/double-charged-app/images/fb-img.png'/>
 
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="double-charged-app/css/animate.css">
-  <link rel="stylesheet" type="text/css" href="double-charged-app/css/fonts.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/base.css">
-  <script type="text/javascript" src="double-charged-app/js/modernizr.js"></script>
-  <script type="text/javascript" src="double-charged-app/js/slidr.js"></script>
-  <script type="text/javascript" src="double-charged-app/js/main.js"></script>
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<!-- Boostrap -->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<!-- Stylesheets  -->
+  <link rel="stylesheet" href="https://youthradio.org/innovationlab/double-charged-app/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="https://youthradio.org/innovationlab/double-charged-app/css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="https://youthradio.org/innovationlab/double-charged-app/css/base.css">
+
+<!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- js -->
+  <script type="text/javascript" src="https://youthradio.org/innovationlab/double-charged-app/js/modernizr.js"></script>
+  <script type="text/javascript" src="https://youthradio.org/innovationlab/double-charged-app/js/slidr.js"></script>
+  <script type="text/javascript" src="https://youthradio.org/innovationlab/double-charged-app/js/main.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
 </head>
 <body>
+
+  <!-- Social -->
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -29,7 +40,11 @@
     js = d.createElement(s); js.id = id;
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=532380043535258&version=v2.0";
     fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+  }(document, 'script', 'facebook-jssdk'));
+
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  </script>
+
   <div class="container-fluid">
     <div class="row" >
       <div class="nav-bar">
@@ -50,23 +65,24 @@
         <div id="slidr-div" style="display: block">
           <div class="slide slide-one text-center" data-slidr="one" data-money="0" >
             <div class="overlay">
-              <p>Gina has been diagnosed with bipolar disorder. Her mom made the decision to give up custody of her daughter, for Gina's safety and her own. That's why Gina now lives in a group home. She got into a fight and was charged with assault.</p>
+              <p>Gina has been diagnosed with bipolar disorder. Her mom made the decision to give up custody of her daughter, for Gina's safety and her own. While in county custody and living in a group home, Gina got into a fight and was charged with assault.</p>
             </div>
           </div>
 
-          <div class=" slide slide-two" data-slidr="two" data-money="965">
+          <div class=" slide slide-two" data-slidr="two" data-money="265">
             <div class="overlay">
-              <p>Gina's mom hired a public defender to handle her daughter's case. She also pays for her daughter's care in the group home.</p>
+              <p>Gina's mom was assigned a public defender to handle her daughter's case.</p>
 
               <ul class="text-center fees">
-                <li><span class="ind_cost-two">$140 public defender fee</span></li>
+                <li><span class="ind_cost-two">$140 public defender fee *</span></li>
                 <li><span class="ind_cost-two">+</span></li>
-                <li><span class="ind_cost-two">$125 investigation fee</span></li>
+                <li><span class="ind_cost-two">$125 investigation fee *</span></li>
+                <li class="footnote-two">* That's after Gina's mom was able to negotiate the fees down, by providing three months of wage stubs and two years of income tax returns, and meeting with a financial hearing officer to make her case.</li>
               </ul>
             </div>
           </div>
 
-          <div class="slide slide-three" data-slidr="three" data-money="1,436">
+          <div class="slide slide-three" data-slidr="three" data-money="736">
             <div class="overlay">
               <p>Gina was sentenced to time in juvenile hall plus probation.</p>
 
@@ -78,7 +94,7 @@
             </div>
           </div>
 
-          <div class="slide slide-four" data-slidr="four" data-money="2,136">
+          <div class="slide slide-four" data-slidr="four" data-money="1,436">
             <div class="overlay">
 
               <p>Gina was required to pay her victim's medical bills.</p>
@@ -91,16 +107,17 @@
           </div>
 
 
-          <div class="slide slide-five" data-slidr="five" data-money="2,136">
+          <div class="slide slide-five" data-slidr="five" data-money="1,436">
             <div class="overlay last">
               <div class="scrollOut">
                 <p>Gina's mom is responsible for her daughter's court-related debt, even the fines and fees she picks up when she is not in her mother's custody.</p>
 
                 <ul class="margintop arrow">
                   <li>Scroll</li>
-                  <li><img src="double-charged-app/images/bottom-arrow.png"></li>
+                  <li><img src="https://youthradio.org/innovationlab/double-charged-app/images/bottom-arrow.png"></li>
                 </ul>
               </div>
+
               <div class="scrollIn no-display">
                 <table class="table">
                   <tr>
@@ -129,9 +146,8 @@
                 <!-- Social media sharing -->
                 <div class="row">
                   <div class="col-xs-3 col-xs-offset-5">
-                    <p class="twitter"> <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out Gina's story from the new Double Charged App from @youthradio's Innovation Lab." data-related="youthradio" data-hashtags="doublecharged">Tweet</a>
-                      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
-                      <div class="fb-share-button facebook" data-href="https://youthradio.org/double-charged-app/gina" data-width="50" data-type="button"></div>
+                    <p class="twitter"> <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out Gina's story from the new Double Charged App from @youthradio's Innovation Lab." data-related="youthradio" data-url="http://bit.ly/YRdc-app" data-hashtags="doublecharged">Tweet</a></p>
+                      <div class="fb-share-button facebook" data-href="http://bit.ly/YRdc-app" data-width="50" data-type="button"></div>
                     </div>
                   </div>
                 </div>
@@ -144,13 +160,13 @@
           </div>
 
           <div id="home">
-            <a href="double-charged-app/index.html">
-              <img src="double-charged-app/images/stories.png">
+            <a href="https://youthradio.org/double-charged-app/">
+              <img src="https://youthradio.org/innovationlab/double-charged-app/images/stories.png">
             </a>
             <div>
 
 
-              <a href="double-charged-app/index.html">Stories</a>
+              <a href="https://youthradio.org/double-charged-app/">Stories</a>
 
             </div>
           </div>
@@ -169,10 +185,6 @@
             </div><!-- /.modal-content -->
           </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
-        <script>
-        $(document).ready(function(){
-          $('#myModal').modal('show')
-        })
-        </script>
+
       </body>
       </html>

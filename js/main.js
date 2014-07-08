@@ -63,4 +63,6 @@ $(document).ready(function(){
     $(".scrollOut").css("height", "0")
   })
 
+  $('#myModal').modal('show')
+
 })
