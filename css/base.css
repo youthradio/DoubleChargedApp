@@ -1,0 +1,415 @@
+@import url(https://fonts.googleapis.com/css?family=News+Cycle);
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body, html, .container-fluid, #mainrow {
+	height: 100%;
+}
+
+
+.nav-bar{
+	position: absolute;
+	top: 0;
+	z-index: 9999;
+	width: 100%;
+}
+
+#col1 {
+	padding: 0;
+}
+
+#col2 {
+	padding: 0;
+}
+
+#col1 > .row{
+	height: 100%;
+}
+
+#mainrow>div {
+	height: 100%;
+}
+
+ul {
+	list-style: none;
+	width: 100%;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.nav li {
+	background-color: rgba(74, 110, 120, 1);
+	width: 20%;
+	float: left;
+	transition: background-color 200ms ease;
+	-webkit-transition: background-color 200ms ease;
+	-moz-transition: background-color 200ms ease;
+	-o-transition: background-color 200ms ease;
+	text-align: center;
+	padding: .5%;
+	font-family: "headline_onehplhs";
+	font-size: 2em;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
+
+
+.nav li:hover {
+	background-color: #d9593a!important;
+}
+
+.no-display{
+	display: none;
+}
+
+.active{
+	background-color: #d9593a!important;
+}
+
+.overlay{
+	color:white;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 30px;
+	padding: 7% 15%;
+	text-align: center;
+	background-color: rgba(1, 1, 1, .6);
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+
+
+.slide-one, .slide-two, .slide-three, .slide-four, .slide-five{
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.slide-one{
+	background-image: url('https://youthradio.org/innovationlab/double-charged-app/images/arrest.jpg');
+}
+
+.slide-two{
+	background-image: url('https://youthradio.org/innovationlab/double-charged-app/images/BandWimage1.jpg');
+}
+
+
+.slide-three{
+	background-image: url('https://youthradio.org/innovationlab/double-charged-app/images/BandWimage2.jpg');
+}
+
+.slide-five{
+	background-image: url('https://youthradio.org/innovationlab/double-charged-app/images/Abstract1.jpg');
+}
+
+.slide-four{
+	background-image: url('https://youthradio.org/innovationlab/double-charged-app/images/BandWimage3.jpg');
+}
+
+#slidr-div{
+	width: 100%;
+	height: 100%;
+}
+
+#slidr-div .slide{
+	width: 100%;
+	height: 100%;
+}
+
+
+.slidr-control.right {
+	width: 80px!important;
+	height: 100% !important;
+	background: url('https://youthradio.org/innovationlab/double-charged-app/images/right.png') 14px 13px no-repeat white;
+	background-position: center;
+	opacity: 0.1;
+}
+
+.slidr-control.right:hover{
+	background: url('https://youthradio.org/innovationlab/double-charged-app/images/right.png') 14px 13px no-repeat #d9593a;
+	background-position: center;
+	opacity: 0.6;
+}
+
+.slidr-control.left {
+	width: 80px!important;
+	height: 100% !important;
+	background-position: center;
+	background: url('https://youthradio.org/innovationlab/double-charged-app/images/left.png') 14px 13px no-repeat white;
+	background-position: center;
+	opacity: 0.1;
+}
+
+.slidr-control.left:hover{
+	background: url('https://youthradio.org/innovationlab/double-charged-app/images/left.png') 14px 13px no-repeat #d9593a;
+	background-position: center;
+	opacity: 0.6;
+}
+
+.slidr-control:after {
+	border-color: transparent !important;
+}
+
+.fees{
+	font-size: 30px;
+	margin-top: 20px;
+	background-color: rgba(1, 1, 1, .5);
+}
+
+#money {
+	position: absolute;
+	font-family: "headline_onehplhs";
+	color: white;
+	letter-spacing: 5px;
+	text-align: center;
+	z-index: 1003;
+	background-image: url("https://youthradio.org/innovationlab/double-charged-app/images/orangeSTAMP.png");
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+	bottom: 6%;
+	left: 3%;
+	padding-top: 47px;
+	transition: height 2s ease;
+	-moz-translate: rotate(20%);
+	-webkit-transition: height 2s ease;
+	-moz-transition: height 2s ease;
+	-o-transition: height 2s ease;
+	transform:rotate(-20deg);
+	-moz-transition:rotate(-20deg);
+	-ms-transform:rotate(-20deg); /* IE 9 */
+	-webkit-transform:rotate(-20deg); /* Opera, Chrome, and Safari */
+}
+
+
+
+#money p{
+	font-size: 30px;
+}
+
+.smaller-size{
+	font-size: 25px!important;
+	font-family: 'News Cycle', sans-serif;
+	letter-spacing: 0;
+}
+
+#home{
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+	right: 130px;
+	color: white;
+	z-index: 3;
+}
+
+#home img{
+	height: 50px;
+	width: auto;
+}
+
+#home a{
+	color: white;
+}
+
+.ind_cost-two, .ind_cost-three, .ind_cost-four{
+	transition: all 5000ms ease;
+	-webkit-transition: all 5000ms ease;
+	-moz-transition: all 5000ms ease;
+	-o-transition: all 5000ms ease;
+	opacity: 0;
+}
+
+.footnote-two, .footnote-three, .footnote-four, .footnote-five{
+	font-size: 14px;
+	margin-top: 20px;
+	transition: all 6000ms ease;
+	-webkit-transition: all 6000ms ease;
+	-moz-transition: all 6000ms ease;
+	-o-transition: all 6000ms ease;
+	opacity: 0;
+}
+
+.no-display{
+	display: none;
+}
+.bigger{
+	color: #d9593a;
+	opacity: 1;
+}
+
+.opacity{
+	opacity: 1;
+}
+
+.margintop{
+	margin-top: 40px;
+}
+
+.modal{
+	background: rgba(0, 0, 0, .8);
+	z-index: 9999;
+}
+
+.modal-dialog-margin{
+	margin-top: 15%;
+}
+
+.modal-header{
+	border: none;
+}
+
+.close{
+	opacity: 1;
+}
+
+.modal-content{
+	background-color: rgba(74, 110, 120, .6);
+	color: white;
+	height: 100%;
+	font-size: 20px;
+	font-family: 'News Cycle', sans-serif;
+	text-align: center;
+	box-shadow: none;
+}
+
+.external-logo{
+	height: 30px;
+	width: auto;
+}
+
+.arrow{
+	animation-duration: 3s;
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	-ms-animation-duration: 3s;
+	-o-animation-duration: 3s;
+	animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-ms-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+}
+
+.scrollOut{
+	height: 1000px;
+/*	overflow: scroll;*/
+}
+
+.scrollIn{
+	height: 100%;
+}
+
+.table{
+	text-align: left;
+}
+.total{
+	background-color:rgba(217, 89, 58, .5);
+}
+
+.twitter, .facebook{
+	float: left;
+}
+
+.facebook{
+	margin-left: 10px;
+	position: relative;
+	bottom: 7px;
+}
+
+button.btn.btn-default{
+	font-family: 'News Cycle'!important;
+	color: white;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	border-radius: 0;
+	background-color: rgba(74, 110, 120, 1);
+	border: 1px rgba(74, 110, 120, 1) solid;
+	transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+}
+
+button.btn.btn-default:hover{
+	background-color: rgba(217, 89, 58, 1);
+	border: 1px rgba(217, 89, 58, 1) solid;
+}
+
+#ajax-contact input{
+	color: black;
+}
+
+@media (max-width: 860px){
+
+	.nav li{
+		width: 100%;
+	}
+
+	.slidr-control.left, .slidr-control.right{
+		height: 10%!important;
+		margin-top: 40%!important;
+	}
+
+	.active{
+		display: inline!important;
+	}
+
+	.nav li{
+		display: none;
+	}
+
+	.fees{
+		font-size: 23px;
+	}
+
+	.arrow{
+		text-align: center;
+	}
+
+	#money{
+		width: 100px;
+		height: 100px;
+		padding-top: 37px;
+		bottom: 4%;
+		background-image: url("https://youthradio.org/innovationlab/double-charged-app/images/BlueStamp.png");
+	}
+
+	#cost{
+		font-size: 15px!important;
+	}
+
+	.overlay{
+		font-size: 15px;
+		padding: 10px;
+		padding-top: 50px;
+		text-align: justify;
+	}
+
+	#home{
+		z-index: 1000;
+		right: 20px;
+	}
+	.modal-content{
+		font-size: 15px;
+	}
+	.modal-dialog{
+		padding-top: 35%;
+	}
+}
+
+

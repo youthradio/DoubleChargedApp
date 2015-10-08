@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=News+Cycle);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+html, body{
+	background-color: rgba(74, 110, 120, 1);
+	color: black;
+	height: 100%;
+	}
+
+hr{
+	clear: both;
+}
+.toLoad{
+	opacity: 0;
+}
+
+.team{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.images img {
+	width: 100%;
+	margin: 0 auto;
+	opacity: 0.8;
+	transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	border: 10px solid white;
+	border-bottom: 60px solid white;
+}
+
+img:hover {
+	opacity: 1;
+}
+
+.twitter, .facebook{
+	float: left;
+}
+
+.facebook{
+	margin-left: 10px;
+	position: relative;
+	bottom: 7px;
+}
+
+.social{
+	position: relative;
+	bottom: 165px;
+	right: 54px;
+}
+
+.logo{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.logo img{
+	height: 75px;
+	width: auto;
+}
+
+.images{
+		margin-top: 10px;
+	}
+
+.name{
+	font-size: 30px;
+	letter-spacing: 5px;
+	font-family: 'Permanent Marker', cursive;
+	position: relative;
+	top: -50px;
+	}
+
+#title h1 {
+	text-align: center;
+	font-size:70px;
+	font-family:"headline_onehplhs";
+	}
+#title h2 {
+	text-align: center;
+	font-size:50px;
+	font-family:"headline_onehplhs";
+	}
+
+
+#paragraph {
+	text-align: center;
+	font-size: 23px;
+	padding-right: 6%;
+	padding-left: 6%;
+	font-family: 'News Cycle', sans-serif;
+	}
+
+footer{
+	text-align: center;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 20px;
+	color: white;
+	position: relative;
+	bottom: 40px;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: #d9593a;
+}
+
+.bio_pic{
+	height: 140px;
+	width: 140px;
+	float: left;
+	margin-right: 10px;
+}
+
+.modal{
+	background: rgba(0, 0, 0, .2);
+}
+
+.modal-content{
+	background-color: rgba(74, 110, 120, .7);
+	color: white;
+	font-size: 20px;
+	font-family: 'News Cycle', sans-serif;
+	text-align: left;
+}
+@media (max-width: 790px){
+	.social{
+		position: static;
+	}
+	.facebook, .twitter{
+		float: none;
+		margin-left:none;
+		bottom: none;
+	}
+}
+
+@media (max-width: 768px){
+	.images img{
+		width: 100%;
+		height: auto;
+		opacity: 1;
+	}
+	img:hover{
+		opacity: 1;
+	}
+	.name{
+		font-size: 40px;
+	}
+
+}
+@media (max-width: 472px){
+	#title h1{
+		font-size: 42px;
+	}
+
+	#title h2 {
+		font-size:27px;
+	}
+
+	.logo{
+		position: absolute;
+		top: 50px;
+		right: 20px;
+	}
+	.logo img{
+		height: 50px;
+		width: auto;
+	}
+
+
+}
