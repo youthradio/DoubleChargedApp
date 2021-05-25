@@ -10,39 +10,28 @@
   <meta property="og:description" content="In the juvenile justice system, young people charged with a crime can be subject to jail time, probation, and fines and fees. Youth Radio's Innovation Lab invites you to explore these stories to see how court-related debt can add up." />
   <meta property="og:url" content="https://youthradio.org/double-charged-app/" />
   <meta property="fb:app_id" content="829227193757174"/>
-  <meta property="og:image" content='https://youthradio.org/innovationlab/double-charged-app/images/fb-img.png'/>
+  <meta property="og:image" content='images/fb-img.png'/>
 
 <!-- Boostrap -->
- <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/bootstrap.min.css">
 
  <!-- Stylesheets -->
- <link rel="stylesheet" href="https://youthradio.org/innovationlab/double-charged-app/css/animate.css">
- <link rel="stylesheet" type="text/css" href="https://youthradio.org/innovationlab/double-charged-app/css/fonts.css">
- <link rel="stylesheet" type="text/css" href="https://youthradio.org/innovationlab/double-charged-app/css/base.css">
+ <link rel="stylesheet" href="css/animate.css">
+ <link rel="stylesheet" type="text/css" href="css/fonts.css">
+ <link rel="stylesheet" type="text/css" href="css/base.css">
 
  <!-- jquery -->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <script src="js/jquery-3.6.0.min.js"></script>
 
  <!-- js -->
- <script type="text/javascript" src="https://youthradio.org/innovationlab/double-charged-app/js/modernizr.js"></script>
- <script type="text/javascript" src="https://youthradio.org/innovationlab/double-charged-app/js/slidr.js"></script>
- <script type="text/javascript" src="https://youthradio.org/innovationlab/double-charged-app/js/main.js"></script>
- <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="js/modernizr.js"></script>
+ <script type="text/javascript" src="js/slidr.js"></script>
+ <script type="text/javascript" src="js/main.js"></script>
+ <script type="text/javascript" src="js/contact_form.js"></script>
+ <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
 
-  <!-- Social -->
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=532380043535258&version=v2.0";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-
-  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-  </script>
 
   <div class="container-fluid">
     <div class="row" >
@@ -117,7 +106,7 @@
 
         <ul class="margintop arrow">
           <li>Scroll</li>
-          <li><img src="https://youthradio.org/innovationlab/double-charged-app/images/bottom-arrow.png"></li>
+          <li><img src="images/bottom-arrow.png"></li>
         </ul>
       </div>
       <div class="scrollIn no-display">
@@ -153,13 +142,8 @@
         </table>
         <p> Jason's family would pay $5,279 in fines and fees. To learn more, check out our <a href="https://youthradio.org/news/article/double-charged/" target="_blank">"Double-Charged"</a> series.</p>
 
-        <!-- Social media sharing -->
-        <div class="row">
-          <div class="col-xs-3 col-xs-offset-5">
-            <p class="twitter"> <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out Jason's story in the new Double Charged App from @youthradio's Innovation Lab." data-related="youthradio" data-url="http://bit.ly/YRdc-app" data-hashtags="doublecharged">Tweet</a></p>
-              <div class="fb-share-button facebook" data-href="http://bit.ly/YRdc-app" data-width="50" data-type="button"></div>
-            </div>
-          </div>
+           <!-- Engagment -->
+                <button data-toggle="modal" data-target="#contactForm" type="button" class="btn btn-default">Tell Us Your Story</button>
         </div>
       </div>
     </div>
@@ -170,8 +154,8 @@
   </div>
 
   <div id="home">
-    <a href="https://youthradio.org/double-charged-app/">
-      <img src="https://youthradio.org/innovationlab/double-charged-app/images/stories.png">
+    <a href="index.html">
+      <img src="images/stories.png">
     </a>
     <div>
 
@@ -195,5 +179,39 @@
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+  <div class="modal fade" id="contactForm">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h3 class="modal-title" id="myModalLabel">Share Your Story</h3>
+            </div>
+            <div class="modal-body">
+              <div id="form-messages"></div>
+              <form id="ajax-contact" method="post" action="mailer.php" role="form">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter Your Email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" class="form-control" rows="5" placeholder="Tell Us Your Story." required></textarea>
+                </div>
+
+                  <button id="submit_form" type="submit" class="btn btn-default">Send</button>
+
+              </form>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
 </body>
 </html>
